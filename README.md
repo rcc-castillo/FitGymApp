@@ -34,7 +34,8 @@ FitGymApp is a console application developed in Java using Maven. The applicatio
 
 2. **Configure the database:**
     - Create a PostgreSQL database.
-    - Update the database connection settings in `src/main/java/fit_gym/connection/DbConnection.java`.
+    - Update the database connection settings in your environment variables 
+      according to the names in the file `src/main/java/fit_gym/connection/DbConnection.java`.
 
 3. **Build the project:**
     ```sh
